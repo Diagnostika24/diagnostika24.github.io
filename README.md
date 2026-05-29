@@ -1,0 +1,1 @@
+# diagnostika24.github.io
