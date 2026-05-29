@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Realūs diagnostikos atvejai Kaune | Diagnostika24</title>
+<meta name="description" content="Realūs automobilių diagnostikos atvejai Kaune. BMW, Mercedes, VW, Ford, Toyota ir kitų markių gedimų nustatymas ir sprendimas. Mobili diagnostika atvykstant pas jus.">
+<meta name="keywords" content="nesikuria automobilis kaunas, dega check engine kaunas, limp mode kaunas, dpf regeneracija kaunas, abs klaida kaunas, automobilis neužsikuria kaunas, dreba variklis kaunas, bmw diagnostika kaunas, mercedes diagnostika kaunas, vw diagnostika kaunas, egr klaida kaunas, purkštukų diagnostika kaunas">
+<meta name="author" content="Diagnostika24">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://diagnostika24.lt/atvejai.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="lt_LT">
+<meta property="og:site_name" content="Diagnostika24">
+<meta property="og:title" content="Realūs diagnostikos atvejai Kaune | Diagnostika24">
+<meta property="og:description" content="Realūs automobilių diagnostikos atvejai Kaune. BMW, Mercedes, VW, Ford, Toyota ir kitų markių gedimų nustatymas ir sprendimas.">
+<meta property="og:url" content="https://diagnostika24.lt/atvejai.html">
+<meta property="og:image" content="https://diagnostika24.lt/og-image.jpg">
+
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0a0a0b; --dark: #111114; --card: #18181d; --border: #2a2a32;
+    --accent: #e8a020; --accent2: #ff6b2b; --text: #e8e8ee; --muted: #7a7a8c; --white: #ffffff;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Barlow', sans-serif; background: var(--black); color: var(--text); overflow-x: hidden; }
+
+  .nav-inner, .page-content, .footer-inner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(10,10,11,0.88); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 18px 48px;
+  }
+  .logo { display: inline-flex; align-items: center; text-decoration: none; }
+  .logo img { height: 56px; width: auto; display: block; }
+  .footer-logo img { height: 46px; width: auto; display: block; }
+  .nav-links a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; letter-spacing: 0.5px; margin-left: 32px; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-cta { background: var(--accent) !important; color: var(--black) !important; padding: 9px 20px; border-radius: 4px; font-weight: 700 !important; }
+  .nav-cta:hover { background: #ffc040 !important; }
+
+  .page-hero {
+    padding: 140px 48px 64px;
+    background: radial-gradient(ellipse 80% 60% at 70% 50%, rgba(232,160,32,0.07) 0%, transparent 60%), var(--black);
+    position: relative; overflow: hidden;
+  }
+  .page-hero-grid {
+    position: absolute; inset: 0; z-index: 0; opacity: 0.03;
+    background-image: linear-gradient(var(--accent) 1px, transparent 1px), linear-gradient(90deg, var(--accent) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .page-hero-content { position: relative; z-index: 1; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 900;
+    font-size: clamp(40px, 6vw, 72px); line-height: 0.95;
+    letter-spacing: -1px; text-transform: uppercase;
+  }
+  h1 .line2 { color: var(--accent); }
+  .page-hero-sub { margin-top: 20px; max-width: 560px; font-size: 17px; line-height: 1.7; color: var(--muted); font-weight: 300; }
+
+  .page-content { padding: 0 48px 96px; }
+
+  .cases-section { margin-top: 72px; }
+  .cases-section-title {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 900;
+    font-size: clamp(24px, 3vw, 36px); text-transform: uppercase;
+    border-left: 4px solid var(--accent); padding-left: 18px;
+    margin-bottom: 32px; color: var(--white);
+  }
+
+  .cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2px;
+    margin-bottom: 8px;
+  }
+
+  .case-card {
+    background: var(--card); border: 1px solid var(--border);
+    padding: 28px 28px 24px; position: relative; overflow: hidden;
+    transition: border-color 0.25s, transform 0.2s;
+  }
+  .case-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transform: scaleX(0); transform-origin: left; transition: transform 0.3s;
+  }
+  .case-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+  .case-card:hover::before { transform: scaleX(1); }
+
+  .case-car {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700;
+    font-size: 18px; text-transform: uppercase; letter-spacing: 0.5px;
+    color: var(--white); margin-bottom: 14px;
+  }
+
+  .case-row { display: flex; gap: 10px; margin-bottom: 10px; align-items: flex-start; }
+  .case-row:last-child { margin-bottom: 0; }
+
+  .case-badge {
+    font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 3px 8px; border-radius: 2px; white-space: nowrap; flex-shrink: 0; margin-top: 1px;
+  }
+  .badge-problem { background: rgba(255,107,43,0.15); color: var(--accent2); border: 1px solid rgba(255,107,43,0.3); }
+  .badge-solution { background: rgba(232,160,32,0.12); color: var(--accent); border: 1px solid rgba(232,160,32,0.3); }
+
+  .case-text { font-size: 14px; color: var(--muted); line-height: 1.5; }
+
+  .cta-section {
+    margin-top: 80px;
+    background: linear-gradient(135deg, rgba(232,160,32,0.1), rgba(255,107,43,0.06));
+    border: 1px solid rgba(232,160,32,0.3);
+    border-radius: 8px; padding: 56px 48px; text-align: center;
+  }
+  .cta-section h2 {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 900;
+    font-size: clamp(28px, 4vw, 48px); text-transform: uppercase;
+    margin-bottom: 16px; color: var(--white);
+  }
+  .cta-section p { color: var(--muted); font-size: 17px; line-height: 1.7; max-width: 520px; margin: 0 auto 32px; }
+  .btn-primary {
+    background: var(--accent); color: var(--black); padding: 16px 36px;
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 17px;
+    letter-spacing: 1px; text-transform: uppercase; border: none; cursor: pointer;
+    border-radius: 4px; text-decoration: none; display: inline-block; transition: background 0.2s, transform 0.15s;
+  }
+  .btn-primary:hover { background: #ffc040; transform: translateY(-2px); }
+
+  footer { background: var(--dark); border-top: 1px solid var(--border); padding: 32px 48px; }
+  .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+  .footer-logo { display: flex; align-items: center; }
+  footer p { color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .page-hero, .page-content { padding-left: 20px; padding-right: 20px; }
+    .cta-section { padding: 40px 24px; }
+    .nav-inner { padding: 16px 20px; }
+    .footer-inner { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="logo" aria-label="Diagnostika24 – pradžios puslapis"><img src="logo.svg" alt="Diagnostika24" /></a>
+    <div class="nav-links">
+      <a href="/#paslaugos">Paslaugos</a>
+      <a href="atvejai.html">Atvejai</a>
+      <a href="/#kaip-veikia">Kaip veikia</a>
+      <a href="/#zona">Aptarnavimo zona</a>
+      <a href="/#kontaktai" class="nav-cta">Susisiekti</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-grid"></div>
+  <div class="page-hero-content">
+    <div class="section-label">Iš praktikos</div>
+    <h1>Realūs<br><span class="line2">diagnostikos</span><br>atvejai</h1>
+    <p class="page-hero-sub">Štai keletas situacijų su kuriomis kreipėsi Kauno gyventojai — ir kaip jas išsprendėme vietoje, be vežimo į servisą.</p>
+  </div>
+</div>
+
+<div class="page-content">
+
+  <!-- SECTION 1 -->
+  <div class="cases-section">
+    <div class="cases-section-title">🔑 Automobilis neužsikuria</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">BMW E61 2.0</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Sunkiai užsikuria, nepriima gazo</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas išprogramuotas DPF filtras — klientas informuotas apie būtiną remontą</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW E90</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Nesikuria po akumuliatoriaus keitimo</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atliktas DDE-CAS kalibravimas — automobilis užsikūrė vietoje</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Chevrolet Orlando 1.8</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Suka starterį, nesikuria</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatyta ir pakeista sugedusi degimo rėlė</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Mercedes-Benz GLK350</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Nesikuria — kuro siurblys neveikia</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas sugedęs kuro siurblys bake — klientas nukreiptas į servisą</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW F11</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Užsikuria ir iškart užgęsta</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas užstrigęs EGR vožtuvas atviroje pozicijoje</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Seat Alhambra 2006</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Nesikuria — imobilizerio klaida</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytos imobilizerio problemos — atlikta diagnostika vietoje</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="cases-section">
+    <div class="cases-section-title">⚠️ Dega check engine / indikacijos</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">Chrysler Voyager 2005</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dega check engine lemputė</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatyta — reikia keisti MAP sensorių ir EGR sklendę</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">VW Polo</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Limp mode ir check engine</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas ir pakeistas MAP sensorius — limp mode dingo</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Toyota Prius</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Užsidegė raudonas šauktukas</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atlikta hibridinės baterijos sistemos diagnostika vietoje</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Skoda</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dega eglutė skydelyje po varlytės keitimo</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Tikrintas ECU ir CAN BUS — nustatyta gedimo priežastis</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="cases-section">
+    <div class="cases-section-title">🚗 Limp mode / dingsta trauka</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">Mercedes-Benz R350 2006</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Limp mode po pavarų dėžės tepalo papildymo — bėgiai vėluoja</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nutrintos klaidos, bėgiai ėmė persimesti normaliai</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Ford C-Max 1.6d</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dreba variklis, dingsta trauka</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatyti grybaujantys purkštukai — klientas nukreiptas taisyti</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Nissan Primastar</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dingsta trauka ant apkrovos</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas sugedęs oro srauto matuoklis — rekomenduota keisti</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW X3 2.0d 2010</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Kartais visiškai dingsta trauka kelioms sekundėms</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas periodiškai užstringstantis EGR vožtuvas</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="cases-section">
+    <div class="cases-section-title">🔧 DPF ir EGR problemos</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">Opel Insignia 2.0</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Užsikišęs DPF filtras</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atlikta priverstinė DPF regeneracija vietoje — problema išspręsta</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW 120d</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Užsikišęs DPF, dega indikacija</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atlikta DPF regeneracija — automobilis vėl veikia normaliai</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW F11 520d</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dingsta trauka, kolektoriaus sklendės</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytos užstrigusios kolektoriaus sklendės — rekomenduota remontuoti</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="cases-section">
+    <div class="cases-section-title">🛑 ABS ir saugos sistemos</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">VW Golf 2009</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Dega ABS lempa</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas sugedęs ABS blokas — klientas nukreiptas taisyti</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Nissan X-Trail</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Ūžia kažkas po kapotu</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas trumpinantis ABS bloko siurblys — rekomenduota keisti bloką</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW F11</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Neveikia parkavimo davikliai</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas neveikiantis priekinis centrinis parkavimo daviklis</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 6 -->
+  <div class="cases-section">
+    <div class="cases-section-title">⚙️ Kalibravimas ir adaptacijos</div>
+    <div class="cases-grid">
+
+      <div class="case-card">
+        <div class="case-car">BMW E91</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Nesiveda po akumuliatoriaus keitimo</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atliktas EWS sistemos resetinimas — automobilis užsikūrė</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW E61</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Po važiuoklės remonto susėdęs galas</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atlikta aukščio daviklių kalibracija — važiuoklė sugrįžo į normalią padėtį</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">BMW E46</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Burbuliuoja ir gesta</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Nustatytas ir pakeistas VANOS įsiurbimo solenoidas</span>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <div class="case-car">Ford Mondeo 2.0d</div>
+        <div class="case-row">
+          <span class="case-badge badge-problem">Problema</span>
+          <span class="case-text">Neveikia tachometras po paskirstymo diržo keitimo</span>
+        </div>
+        <div class="case-row">
+          <span class="case-badge badge-solution">Sprendimas</span>
+          <span class="case-text">Atlikta uždegimo sistemos diagnostika — nustatyta gedimo priežastis</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>Atpažįstate savo automobilio problemą?</h2>
+    <p>Atvykstu į sutartą vietą Kaune ir Kauno rajone. Skambinkite arba rašykite — atsakau greitai.</p>
+    <a href="/#kontaktai" class="btn-primary">Susisiekti →</a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo"><img src="logo.svg" alt="Diagnostika24" /></div>
+    <p>© 2026 Diagnostika24. Mobili automobilių diagnostika.</p>
+    <p>Kaunas ir Kauno rajonas</p>
+  </div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.style.opacity='1'; e.target.style.transform='translateY(0)'; }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.case-card').forEach(el => {
+  el.style.opacity='0'; el.style.transform='translateY(20px)';
+  el.style.transition='opacity 0.5s ease, transform 0.5s ease';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
